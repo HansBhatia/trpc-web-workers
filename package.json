@@ -1,0 +1,32 @@
+{
+  "name": "trpc-web-workers",
+  "version": "1.0.0",
+  "description": "TRPC quickstart kit for web workers",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "trpc",
+    "workers",
+    "concurrency"
+  ],
+  "author": "Hans Bhatia",
+  "license": "ISC",
+  "dependencies": {
+    "@open-draft/deferred-promise": "^2.2.0",
+    "@trpc/client": "^10.44.1",
+    "@trpc/server": "^10.44.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  }
+}

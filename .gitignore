@@ -1,0 +1,6 @@
+/node_modules
+
+# Ignore test-related files
+
+# Build files
+/dist
